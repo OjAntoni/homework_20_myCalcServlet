@@ -1,0 +1,47 @@
+POST http://localhost:8080/registration
+Content-Type: application/x-www-form-urlencoded
+
+name=Anton&username=Antek1&password=12345678
+
+###
+
+POST http://localhost:8080/authorization
+Content-Type: application/x-www-form-urlencoded
+
+username=OjAntoni&password=224466
+
+###
+
+POST http://localhost:8080/calc
+Content-Type: application/x-www-form-urlencoded
+
+num1=2&num2=2&operation=multi
+
+###
+
+GET http://localhost:8080/history
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+POST http://localhost:8080/logout
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+POST http://localhost:8080/delete
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+POST http://localhost:8080/rename
+Content-Type: application/x-www-form-urlencoded
+
+newUsername=OjAntoni
+
+###
+
+POST http://localhost:8080/password
+Content-Type: application/x-www-form-urlencoded
+
+oldPassword=22&newPassword=224466
